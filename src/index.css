@@ -15,3 +15,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@layer components {
+  .header-tab {
+    @apply px-4 py-2 text-sm font-inter;
+  }
+}

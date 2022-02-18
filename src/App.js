@@ -1,10 +1,10 @@
-import './App.css';
+import Header from "./component/Header";
 
 function App() {
   return (
-    <h1 className="text-3xl text-green-500 font-bold">
-      Hello world! I am Sawan
-    </h1>
+    <div className="w-full h-screen overflow-auto flex flex-col">
+      <Header />
+    </div>
   );
 }
 
