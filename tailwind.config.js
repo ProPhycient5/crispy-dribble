@@ -4,7 +4,11 @@ module.exports = {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        "pinky": "#ea4c89",
+      },
+    },
   },
   plugins: [require("daisyui")],
 };

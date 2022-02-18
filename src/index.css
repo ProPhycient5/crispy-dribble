@@ -19,6 +19,9 @@ code {
 
 @layer components {
   .header-tab {
-    @apply px-4 py-2 text-sm text-gray-300 font-inter h-full flex items-center hover:text-black;
+    @apply px-4 py-2 text-sm text-gray-600 font-inter h-full flex items-center hover:text-black;
+  }
+  .main-btn{
+    @apply btn btn-secondary btn-sm normal-case bg-pinky text-xs font-light font-inter h-9 hover:bg-opacity-60;
   }
 }
