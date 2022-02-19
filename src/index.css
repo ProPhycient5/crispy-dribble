@@ -18,7 +18,7 @@ code {
 
 @layer components {
   .header-tab {
-    @apply px-4 py-2 fs-13px text-gray-600 font-inter h-full flex items-center hover:text-black;
+    @apply px-4 py-2 fs-14px text-gray-600 font-inter h-full flex items-center hover:text-black;
   }
   .main-btn {
     @apply btn btn-secondary btn-sm normal-case bg-pinky text-xs font-light font-inter h-9 hover:bg-opacity-60;
@@ -30,13 +30,19 @@ code {
     @apply flex justify-between items-center h-full w-full;
   }
   .dribble-text {
-    @apply cursor-pointer font-cursive font-extrabold text-xl text-black p-2 hover:bg-zinc-200 rounded-xl;
+    @apply cursor-pointer font-cursive font-extrabold text-2xl text-black p-2 hover:bg-zinc-100 rounded-xl;
   }
 }
 
 @layer utilities {
-  .fs-13px {
-    font-size: 13px;
-    line-height: 16px;
+  .fs-14px {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .wrapper {
+    height: 1798px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
   }
 }
