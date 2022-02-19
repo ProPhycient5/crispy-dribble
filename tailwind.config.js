@@ -8,6 +8,8 @@ module.exports = {
     screens: {
       customMd: "919px",
       // => @media (min-width: 919px) { ... }
+      desktop: "1200px",
+      footerMd: "1160px",
     },
     extend: {
       colors: {

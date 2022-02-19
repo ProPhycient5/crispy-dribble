@@ -5,7 +5,7 @@ import CoverPhoto from "../../Asset/princep.jpg";
 export default function Body() {
   return (
     <div className="wrapper">
-      <img src={CoverPhoto} alt="paris photo" />
+      <img src={CoverPhoto} alt="paris" />
     </div>
   );
 }

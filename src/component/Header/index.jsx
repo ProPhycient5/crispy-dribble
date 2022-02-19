@@ -9,7 +9,7 @@ export default function Header() {
           <span class="material-icons">menu</span>
         </div>
         <div className="header-tab px-2">
-          <span className="dribble-text">dribble</span>
+          <span className="dribble-text">dribbble</span>
         </div>
         <div className="header-tab px-2 hover:text-gray-500">
           <span className="cursor-pointer">Sign in</span>
@@ -19,7 +19,7 @@ export default function Header() {
       {/* show when screen size is more than 919px */}
       <div className="customMd:header-container hidden">
         <div className="header-tab px-2">
-          <span className="dribble-text">dribble</span>
+          <span className="dribble-text">dribbble</span>
         </div>
 
         <div className="header-tab">

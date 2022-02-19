@@ -18,7 +18,7 @@ code {
 
 @layer components {
   .header-tab {
-    @apply px-4 py-2 fs-14px text-gray-600 font-inter h-full flex items-center hover:text-black;
+    @apply px-4 py-2 fs-14px text-gray-500 font-inter h-full flex items-center hover:text-black;
   }
   .main-btn {
     @apply btn btn-secondary btn-sm normal-case bg-pinky text-xs font-light font-inter h-9 hover:bg-opacity-60;
@@ -32,6 +32,12 @@ code {
   .dribble-text {
     @apply cursor-pointer font-cursive font-extrabold text-2xl text-black p-2 hover:bg-zinc-100 rounded-xl;
   }
+  .footer-main {
+    @apply w-full flex footerMd:flex-row flex-col py-16 border-b border-gray-200;
+  }
+  .footer-lower {
+    @apply flex footerMd:justify-between items-center footerMd:flex-row flex-col py-11 w-full;
+  }
 }
 
 @layer utilities {
@@ -44,5 +50,16 @@ code {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
+  }
+  .footer {
+    height: 629px;
+    background: #fafafb;
+    color: #3d3d4e;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .max-w-176{
+    max-width: 176px;
   }
 }
