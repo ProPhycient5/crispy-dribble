@@ -1,5 +1,6 @@
 import React from "react";
-import CoverPhoto from "../../Asset/sample_foto.jpg";
+import CoverPhoto from "../../Asset/princep.jpg";
+
 
 export default function Body() {
   return (
