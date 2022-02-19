@@ -4,24 +4,39 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-
 @layer components {
   .header-tab {
-    @apply px-4 py-2 text-sm text-gray-600 font-inter h-full flex items-center hover:text-black;
+    @apply px-4 py-2 fs-13px text-gray-600 font-inter h-full flex items-center hover:text-black;
   }
-  .main-btn{
+  .main-btn {
     @apply btn btn-secondary btn-sm normal-case bg-pinky text-xs font-light font-inter h-9 hover:bg-opacity-60;
+  }
+  .header-container {
+    @apply flex justify-center items-center h-full;
+  }
+  .header-tablet {
+    @apply flex justify-between items-center h-full w-full;
+  }
+  .dribble-text {
+    @apply cursor-pointer font-cursive font-extrabold text-xl text-black p-2 hover:bg-zinc-200 rounded-xl;
+  }
+}
+
+@layer utilities {
+  .fs-13px {
+    font-size: 13px;
+    line-height: 16px;
   }
 }

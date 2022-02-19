@@ -3,10 +3,15 @@ module.exports = {
   theme: {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
+      cursive: ["Cedarville Cursive", "cursive"],
+    },
+    screens: {
+      customMd: "919px",
+      // => @media (min-width: 919px) { ... }
     },
     extend: {
       colors: {
-        "pinky": "#ea4c89",
+        pinky: "#ea4c89",
       },
     },
   },
