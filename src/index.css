@@ -53,6 +53,7 @@ code {
   }
   .wrapper {
     height: 1798px;
+    width: 100%;
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;

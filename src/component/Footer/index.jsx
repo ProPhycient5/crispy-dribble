@@ -9,7 +9,7 @@ import Lists from "./Lists";
 export default function Footer() {
   return (
     <div className="footer w-full">
-      <div className="desktop:px-16 px-8 w-full">
+      <div className="desktop:px-16 footerGrid:px-14 px-8 w-full">
         <div className="footer-main">
           <div className="mr-8">
             <img

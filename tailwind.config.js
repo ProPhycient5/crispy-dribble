@@ -6,9 +6,9 @@ module.exports = {
       cursive: ["Cedarville Cursive", "cursive"],
     },
     screens: {
-      customMd: "919px",
+      customMd: "920px",
       // => @media (min-width: 919px) { ... }
-      footerGrid: "770px",
+      footerGrid: "768px",
       desktop: "1200px",
       footerMd: "1160px",
     },
