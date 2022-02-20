@@ -4,33 +4,32 @@ import { GrDribbble } from "react-icons/gr";
 import { BsTwitter } from "react-icons/bs";
 import { ImFacebook2 } from "react-icons/im";
 import { FaInstagram, FaPinterest } from "react-icons/fa";
+import Lists from "./Lists";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="footer w-full">
       <div className="desktop:px-16 px-8 w-full">
         <div className="footer-main">
-          <div>
-            <img src={DribbleLogo} className="h-8 cursor-pointer" alt="dribble" />
+          <div className="mr-8">
+            <img
+              src={DribbleLogo}
+              className="h-8 cursor-pointer"
+              alt="dribble"
+            />
             <div className="my-5 max-w-176 text-gray-800">
               Dribbble is the world’s leading community for creatives to share,
               grow, and get hired.
             </div>
             <div className="flex flex-row">
-              <GrDribbble className="w-4 h-4" />
-              <BsTwitter className="w-4 h-4 ml-3" />
-              <ImFacebook2 className="w-4 h-4 ml-3" />
-              <FaInstagram className="w-5 h-5 ml-3 -mt-0.5" />
-              <FaPinterest className="w-4 h-5 ml-3 -mt-0.5" />
+              <GrDribbble className="w-4 h-4 cursor-pointer" />
+              <BsTwitter className="w-4 h-4 ml-3 cursor-pointer" />
+              <ImFacebook2 className="w-4 h-4 ml-3 cursor-pointer" />
+              <FaInstagram className="w-5 h-5 ml-3 -mt-0.5 cursor-pointer" />
+              <FaPinterest className="w-4 h-5 ml-3 -mt-0.5 cursor-pointer" />
             </div>
           </div>
-          <div className="five-sections">
-            <div className="list"></div>
-            <div className="list"></div>
-            <div className="list"></div>
-            <div className="list"></div>
-            <div className="list"></div>
-          </div>
+          <Lists />
         </div>
 
         <div className="footer-lower">
@@ -42,7 +41,7 @@ export default function Footer() {
             </div>
             &nbsp;
             <img
-            className="self-center"
+              className="self-center"
               width="24px"
               height="24px"
               alt="Dribbble ball icon"
@@ -50,9 +49,9 @@ export default function Footer() {
             />
           </div>
           <div className="footerMd:hidden block pt-2">
-              <span className="text-black font-medium">17,546,410</span>
-              &nbsp;shots dribbbled
-            </div>
+            <span className="text-black font-medium">17,546,410</span>
+            &nbsp;shots dribbbled
+          </div>
         </div>
       </div>
     </div>

@@ -33,10 +33,16 @@ code {
     @apply cursor-pointer font-cursive font-extrabold text-2xl text-black p-2 hover:bg-zinc-100 rounded-xl;
   }
   .footer-main {
-    @apply w-full flex footerMd:flex-row flex-col py-16 border-b border-gray-200;
+    @apply w-full flex justify-center footerMd:flex-row flex-col py-16 border-b border-gray-200;
   }
   .footer-lower {
     @apply flex footerMd:justify-between items-center footerMd:flex-row flex-col py-11 w-full;
+  }
+  .title {
+    @apply fs-14px text-black font-inter font-medium;
+  }
+  .footer-para {
+    @apply text-gray-800 fs-14px cursor-pointer;
   }
 }
 
@@ -53,13 +59,15 @@ code {
   }
   .footer {
     height: 629px;
+    display: flex;
+    justify-content: center;
     background: #fafafb;
     color: #3d3d4e;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
   }
-  .max-w-176{
+  .max-w-176 {
     max-width: 176px;
   }
 }

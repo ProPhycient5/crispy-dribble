@@ -8,6 +8,7 @@ module.exports = {
     screens: {
       customMd: "919px",
       // => @media (min-width: 919px) { ... }
+      footerGrid: "770px",
       desktop: "1200px",
       footerMd: "1160px",
     },
