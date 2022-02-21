@@ -7,7 +7,6 @@ module.exports = {
     },
     screens: {
       customMd: "920px",
-      // => @media (min-width: 919px) { ... }
       wrapperMd: "500px",
       cardMd: "672px",
       footerGrid: "768px",
