@@ -4,6 +4,7 @@ import React from "react";
 import Profile from "./Profile";
 import Carousel from "./Carousel";
 import Description from "./Description";
+import UserSection from "./UserSection";
 
 export default function Body() {
   return (
@@ -15,7 +16,7 @@ export default function Body() {
           <Profile />
           <Carousel />
           <Description />
-          <div className="user-part"></div>
+          <UserSection />
           <div className="footer-image"></div>
           <div className="footer-btn"></div>
         </div>
