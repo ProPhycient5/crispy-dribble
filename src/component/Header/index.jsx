@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="flex justify-between items-center h-16 w-full border-b border-gray-200 px-2">
+    <div className="flex justify-between items-center h-16 w-full border-b border-slate-200 px-2 sticky top-0 bg-white">
       {/* show when screen size is less than 920px */}
       <div className="customMd:hidden header-tablet">
         <div className="header-tab">

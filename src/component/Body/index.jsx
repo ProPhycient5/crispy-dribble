@@ -3,6 +3,7 @@ import React from "react";
 // import CoverPhoto2 from "../../Asset/barie.jpg";
 import Profile from "./Profile";
 import Carousel from "./Carousel";
+import Description from "./Description";
 
 export default function Body() {
   return (
@@ -13,7 +14,7 @@ export default function Body() {
         <div className="flex flex-col justify-center items-center m-auto w-full">
           <Profile />
           <Carousel />
-          <div className="description"></div>
+          <Description />
           <div className="user-part"></div>
           <div className="footer-image"></div>
           <div className="footer-btn"></div>
