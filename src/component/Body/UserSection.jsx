@@ -14,7 +14,7 @@ export default function UserSection() {
          <span className="w-full border border-gray-200"></span>
       </div>
       <a href="/" className="text-black text-lg font-medium">Eren ✦ </a>
-      <div className="">Let's create something amazing together ✦</div>
+      <span>Let's create something amazing together ✦</span>
       <button className="main-btn">
         <span className="material-icons text-sm mr-1">email</span>
         Hire me

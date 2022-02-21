@@ -55,7 +55,7 @@ code {
     line-height: 18px;
   }
   .wrapper {
-    height: 1798px;
+    height: auto;
     width: 100%;
     flex-grow: 1;
     flex-shrink: 0;
