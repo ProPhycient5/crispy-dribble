@@ -1,7 +1,8 @@
 import React from "react";
-import CoverPhoto from "../../Asset/konark.jpg";
-import CoverPhoto2 from "../../Asset/barie.jpg";
+// import CoverPhoto from "../../Asset/konark.jpg";
+// import CoverPhoto2 from "../../Asset/barie.jpg";
 import Profile from "./Profile";
+import Carousel from "./Carousel";
 
 export default function Body() {
   return (
@@ -11,7 +12,7 @@ export default function Body() {
       <div className="customMd:py-16 customMd:px-40 py-8 px-4 w-full">
         <div className="flex flex-col justify-center items-center m-auto w-full">
           <Profile />
-          <div className="carousel"></div>
+          <Carousel />
           <div className="description"></div>
           <div className="user-part"></div>
           <div className="footer-image"></div>
