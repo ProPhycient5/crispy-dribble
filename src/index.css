@@ -44,6 +44,9 @@ code {
   .footer-para {
     @apply text-gray-800 fs-14px cursor-pointer;
   }
+  .wrapper-tab-btn{
+  @apply btn btn-secondary btn-sm normal-case text-black bg-gray-100 border border-gray-300 h-8 w-10 text-xs font-light font-inter;
+  }
 }
 
 @layer utilities {
