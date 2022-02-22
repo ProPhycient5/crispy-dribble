@@ -47,6 +47,12 @@ code {
   .wrapper-tab-btn {
     @apply btn btn-secondary btn-sm normal-case text-black bg-gray-100 border border-gray-300 h-8 w-10 text-xs font-light font-inter;
   }
+  .parent-div-user-section {
+    @apply footerGrid:mt-16 mt-8 space-y-2 flex flex-col justify-center items-center text-center w-full text-sm text-gray-900;
+  }
+  .parent-div-description {
+    @apply flex flex-col customMd:mt-14 mt-8 w-full break-words customMd:text-lg text-sm text-gray-900 customMd:leading-8 leading-6;
+  }
 }
 
 @layer utilities {

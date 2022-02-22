@@ -4,6 +4,7 @@ import Carousel from "./Carousel";
 import Description from "./Description";
 import UserSection from "./UserSection";
 import MoreSection from "./MoreSection";
+import ThreeBtn from "./ThreeBtn";
 
 export default function Body() {
   return (
@@ -15,7 +16,6 @@ export default function Body() {
           <Description />
           <UserSection />
           <MoreSection />
-          <div className="footer-btn"></div>
         </div>
       </div>
     </div>

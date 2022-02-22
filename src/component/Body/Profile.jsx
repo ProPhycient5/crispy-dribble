@@ -1,6 +1,6 @@
 import React from "react";
 import ProfilePic from "../../Asset/profile-pic.JPG";
-import { FaComment, FaShare } from "react-icons/fa";
+import ThreeBtn from "./ThreeBtn";
 
 export default function Profile() {
   return (
@@ -45,6 +45,7 @@ export default function Profile() {
           </button>
         </div>
       </div>
+
       <div className="customMd:hidden flex justify-between items-center my-2 w-full">
         <div className="space-x-2 flex justify-center items-center">
           <button className="wrapper-tab-btn">
@@ -54,17 +55,7 @@ export default function Profile() {
             <span className="material-icons text-lg">favorite</span>
           </button>
         </div>
-        <div className="space-x-2 flex justify-center items-center">
-          <button className="wrapper-tab-btn">
-            <FaShare className="h-4 w-4" />
-          </button>
-          <button className="wrapper-tab-btn">
-            <FaComment className="h-4 w-4" />
-          </button>
-          <button className="wrapper-tab-btn">
-            <span className="material-icons text-lg">info</span>
-          </button>
-        </div>
+        <ThreeBtn />
       </div>
     </div>
   );
